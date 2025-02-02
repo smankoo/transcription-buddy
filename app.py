@@ -194,7 +194,7 @@ max_speakers = st.number_input(
 if uploaded_file is not None:
     st.audio(uploaded_file, format="audio/wav")
     # Save the uploaded file temporarily.
-    temp_dir = "temp"
+    temp_dir = ".temp"
     if not os.path.exists(temp_dir):
         os.makedirs(temp_dir)
     temp_file_path = os.path.join(temp_dir, uploaded_file.name)
