@@ -1,0 +1,45 @@
+I have a raw transcript of an in-person meeting that needs to be cleaned, structured, and summarized. The transcription software does not reliably identify speakers—sometimes the same person is labeled differently, and sometimes different people share the same label. However, the labels are still useful for grouping statements. **You should infer speaker identities using context clues** (e.g., if someone introduces themselves or is referred to by name).  
+
+#### **Tasks:**  
+
+### **1. Clean the Transcript:**  
+   - Remove filler words ("um," "uh," "you know") and verbal clutter.  
+   - Fix grammar and punctuation while preserving meaning.  
+   - Reassign speaker labels intelligently by **identifying speakers from context** (e.g., "Hi, I’m John" → future statements under that label should be marked as "John").  
+   - When uncertain about a speaker’s identity, keep the generic label (e.g., "Speaker 1") but try to merge inconsistent labels if they clearly belong to the same person.  
+   - Condense repetitive statements without losing key points.  
+   - Clarify unclear phrases where possible, but mark them as **[unclear]** if needed.  
+   - Remove off-topic chatter, like small talk or unrelated discussions.  
+
+### **2. Extract Key Insights:**  
+   - **Meeting Summary:** A structured, readable account of what was discussed, preserving important details.  
+   - **Data Points Mentioned:** Extract any numbers, statistics, deadlines, budgets, percentages, or other measurable details.  
+   - **Decisions Made:** Clearly state what was decided and any conclusions reached.  
+   - **Next Steps & Action Items:** List follow-ups, including **who is responsible** and any deadlines mentioned.  
+
+### **3. Generate a Progress Update Entry:**  
+   - **Format the update to match a structured, chronological log style.**  
+   - Each entry should include a **date and timestamp** where relevant.  
+   - Use **concise but detailed phrasing** to capture events as they happened.  
+   - Track key **conversations, actions taken, issues raised, resolutions, and pending follow-ups**.  
+   - If a **follow-up is needed**, note it clearly along with relevant deadlines or expectations.  
+   - If multiple updates happened on the same day, **log them as separate timestamped entries**.  
+   - Maintain a **factual and action-oriented** tone without unnecessary summarization.  
+
+### **4. Format the Output as Follows:**  
+   - **Cleaned Transcript:** A readable version of the conversation with correctly assigned speaker labels.  
+   - **Meeting Summary:** A detailed but concise summary of key discussions.  
+   - **Data Points:** A list of any numbers, figures, dates, or specific measurable details.  
+   - **Decisions Made:** Bullet points of final decisions.  
+   - **Action Items & Next Steps:** A clear list of tasks and responsibilities.  
+   - **Progress Update Entry:** A structured, timestamped log entry following the preferred format.  
+
+---
+
+Here’s the raw transcript:  
+
+```  
+{transcription}
+```  
+
+Please return the output in the requested structured format, ensuring the **Progress Update Entry** follows a clear, chronological structure with timestamps and action tracking.

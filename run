@@ -1,0 +1,7 @@
+#/bin/bash
+
+export TRANSCRIPTION=$(cat processed_transcript.txt)
+export LLM_PROMPT=$(cat llm_prompt.txt)
+RESULT=$(perl -0777 -pe 's/\{transcription\}/$ENV{TRANSCRIPTION}/g' <<< "$LLM_PROMPT")
+echo "$RESULT" | pbcopy
+echo "LLM_PROMPT copied to clipboard"
